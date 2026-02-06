@@ -1,0 +1,72 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "🚀 Start Backend Server",
+			"type": "shell",
+			"command": "cd backend && python main.py",
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"showReuseMessage": false
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "🎨 Start Frontend Dev Server",
+			"type": "shell",
+			"command": "cd frontend && npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"showReuseMessage": false
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		},
+		{
+			"label": "📦 Install Backend Dependencies",
+			"type": "shell",
+			"command": "cd backend && python -m pip install -r requirements.txt",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "📦 Install Frontend Dependencies",
+			"type": "shell",
+			"command": "cd frontend && npm install",
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			}
+		},
+		{
+			"label": "🏥 Run Complete MedIntel App",
+			"dependsOn": [
+				"🚀 Start Backend Server",
+				"🎨 Start Frontend Dev Server"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Backend Dependencies",
+			"type": "shell",
+			"command": "cd backend && python -m pip install -r requirements.txt",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
