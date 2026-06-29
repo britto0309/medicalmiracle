@@ -6,13 +6,13 @@ MedVeritas is an advanced AI-driven healthcare intelligence system that bridges 
 
 ## Features
 
-- 💬 **Conversational AI Chat Interface** - Natural language interaction with medical AI
-- 🏥 **Medical Report Analysis** - Extract and analyze findings from medical documents
-- 🔍 **Intelligent Symptom Analysis** - Disease prediction and severity assessment
-- 📁 **Document Processing** - Upload PDF, images, and DOCX files with OCR support
-- 📊 **Patient-friendly Explanations** - Complex medical information simplified
-- ⚠️ **Risk Assessment** - Urgency detection and red flag identification
-- 🔒 **Privacy-focused** - Local processing with no external data storage
+- **Conversational AI Chat Interface** - Natural language interaction with medical AI
+- **Medical Report Analysis** - Extract and analyze findings from medical documents
+- **Intelligent Symptom Analysis** - Disease prediction and severity assessment
+- **Document Processing** - Upload PDF, images, and DOCX files with OCR support
+- **Patient-friendly Explanations** - Complex medical information simplified
+- **Risk Assessment** - Urgency detection and red flag identification
+- **Privacy-focused** - Local processing with no external data storage
 
 ## Project Structure
 
@@ -126,7 +126,7 @@ See [CHAT_INTERFACE_GUIDE.md](CHAT_INTERFACE_GUIDE.md) for detailed usage instru
 
 ## Development Status
 
-### Completed Features ✅
+### Completed Features
 
 - [x] Project setup and architecture
 - [x] Core NLP Engine (BioBERT + ClinicalBERT integration)
@@ -140,7 +140,7 @@ See [CHAT_INTERFACE_GUIDE.md](CHAT_INTERFACE_GUIDE.md) for detailed usage instru
 - [x] File upload system
 - [x] Real-time analysis
 
-### Future Enhancements 🚀
+### Future Enhancements
 
 - [ ] Conversation history persistence
 - [ ] Multi-language support
